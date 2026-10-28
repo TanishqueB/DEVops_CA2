@@ -20,6 +20,7 @@ services:
     build: ./backend
     environment:
       REGNO: "318"
+      APP_VERSION: "dev"
       DB_HOST: db
       DB_NAME: festpass
       DB_USER: festpass
